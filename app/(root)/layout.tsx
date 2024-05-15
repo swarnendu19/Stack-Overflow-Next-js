@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react'
 import Navbar from '@/components/shared/navbar/Navbar'
+import LeftSideBar from '@/components/shared/LeftSideBar'
 
 const layout = ({children} : {children: ReactNode}) => {
   return (
@@ -8,7 +9,7 @@ const layout = ({children} : {children: ReactNode}) => {
      >
         <Navbar/>
         <div className='flex'>
-            LeftSideBar
+            <LeftSideBar/>
           <section className='flex min-h-screen
         flex-1 flex-col px-6 pb-6 pt-36
         max-md:pb-14 sm:px-14'>
@@ -19,7 +20,7 @@ const layout = ({children} : {children: ReactNode}) => {
           RightSideBar
         </div>
       
-      Toaster
+      {/* Toaster */}
      </main>
   )
 }
