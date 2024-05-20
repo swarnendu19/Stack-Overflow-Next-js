@@ -1,3 +1,4 @@
+import Filter from "@/components/shared/Filter";
 import LocalSearchBar from "@/components/search/LocalSearchBar";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -25,8 +26,9 @@ export default function Home() {
          imgSrc = "/assets/icons/search.svg"
          placeholder  = "Search for Question"
          otherClasses = "flex-1"
-        />
-       </div>
+        />  
+       </div>    
+        <Filter/>
     </>
   )
 }
