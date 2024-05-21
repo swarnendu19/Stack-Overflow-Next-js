@@ -69,7 +69,7 @@ const LeftSideBar = () => {
                   Sign Up
                 </Button>
               </Link>
-             s
+            
           </div>
         </SignedOut>
          
