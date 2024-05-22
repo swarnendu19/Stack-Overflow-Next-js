@@ -5,51 +5,51 @@ import RernderTag from "./RernderTag";
 
 const hotQuestion = [
   {
-    id: 1,
+    id: "1",
     title:
       "Best practices for data fetching in a Next.js application with Server-Side Rendering (SSR)?",
   },
   {
-    id: 2,
+    id: "2",
     title: "Is it only me or the font is bolder than necessary?",
   },
   {
-    id: 3,
+    id: "3",
     title: "Redux Toolkit Not Updating State as Expected",
   },
   {
-    id: 4,
+    id: "4",
     title: "Can I get the course for free?",
   },
   {
-    id: 5,
+    id: "5",
     title: "Async/Await Function Not Handling Errors Properly",
   },
 ];
 
 const tags = [
   {
-    id: 1,
+    id: "1",
     numberOfTags: 30,
     topic: "NextJS",
   },
   {
-    id: 2,
+    id: "2",
     numberOfTags: 30,
     topic: "ReactJS",
   },
   {
-    id: 3,
+    id: "3",
     numberOfTags: 30,
     topic: "EtherJS",
   },
   {
-    id: 4,
+    id: "4",
     numberOfTags: 30,
     topic: "NextJS",
   },
   {
-    id: 5,
+    id: "5",
     numberOfTags: 30,
     topic: "NextJS",
   },
