@@ -70,7 +70,6 @@ const questions= [
   }
 ];
 
-// Testing Git hub working or not 
  
 export default function Home() {
   return (
