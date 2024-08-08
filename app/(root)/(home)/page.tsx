@@ -9,7 +9,7 @@ import QuestionCard from "@/components/cards/QuestionCard";
 
 const questions= [
   {
-    id: 1,
+    id: '1',
     title: "How to fix a bug in React?",
     tags: [
       { id: "1", name: "React" },
@@ -29,7 +29,7 @@ const questions= [
     createdAt: new Date('2023-04-01T10:00:00Z')
   },
   {
-    id: 2,
+    id: '2',
     title: "What is the best way to learn TypeScript?",
     tags: [
       { id: "3", name: "TypeScript" },
@@ -49,7 +49,7 @@ const questions= [
     createdAt: new Date('2023-05-01T12:00:00Z')
   },
   {
-    id: 3,
+    id: '3',
     title: "How to optimize a website for SEO?",
     tags: [
       { id: "5", name: "SEO" },
