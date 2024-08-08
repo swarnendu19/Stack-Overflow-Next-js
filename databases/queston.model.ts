@@ -52,3 +52,5 @@ const QuestionSchema = new mongoose.Schema({
         default: Date.now
       }
 })
+
+export const Question = mongoose.model<IQuestion>("Question", QuestionSchema)
