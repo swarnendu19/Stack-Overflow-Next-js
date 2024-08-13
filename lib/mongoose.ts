@@ -15,8 +15,7 @@ export const connectDatabase  = async()=>{
             dbName: "Stack-Overflow"
         })
         isConnected = true;
-        console.log("MongoDB connected Successfully !!!");
-        
+        console.log("MongoDB connected Successfully !!!");       
     } catch (error) {
         throw Error("MonogoDB connection failed")
     }
